@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Potfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6fcf7b2962.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src=".\images\cake-logo-vector-25934828-removebg-preview.png" width=70px height=100px class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p>Cake Designer</p>
+            <h1>Hi, I'm <span>Sachini</span><br>From Sri Lanka</h1>
+
+        </div>
+    </div>
+
+</div>
+<!-- -------about--------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <!--img src="istockphoto-893746742-612x612-removebg-preview.png"-->
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-titles">About Me</h1>
+                <p>I'm Sachini Fernando.I work as a Cake Designer.It is a dream since chilhood for me.I have worked at five star hotels and restaurants.
+                    But now I do my own business with my passion. Here My website for you all. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Weddingcakes</span><br>Designing Wedding Cake</li>
+                        <li><span>Birthdaycakes</span><br>Designing Birthday Cake</li>
+                        <li><span>Cupcakes</span><br>Designing Cup Cake</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Weddingcakes</span><br>5 Years Experience in Fernando Bakery</li>
+                        <li><span>Birthdaycakes</span><br>5 Years Experience in Fernando Bakery</li>
+                        <li><span>Cupcakes</span><br>5 Years Experience in Fernando Bakery</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Weddingcakes</span><br>Diploma in Pastry & Bakery in Negambo Hotel School</li>
+                        <li><span>Birthdaycakes</span><br>Diploma in Pastry & Bakery in Negambo Hotel School</li>
+                        <li><span>Cupcakes</span><br>Diploma in Pastry & Bakery in Negambo Hotel School</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- -------services-------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titles">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-cake-candles"></i>
+                <h2>Wedding Cake Design</h2>
+                <p>Eat in and take away. Delicious hot food, Pastel de 
+                    Natas, pastries, ice cream & cocktails. Based in Cardiff, 
+                    Bristol & Bath, run by Portuguese bakers sharing great
+                     food. Luxury Hot Chocolates. Portuguese Coffees</p>
+
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-cake-candles"></i>
+                <h2>Birthday Cake Design</h2>
+                <p>Eat in and take away. Delicious hot food, Pastel de 
+                    Natas, pastries, ice cream & cocktails. Based in Cardiff, 
+                    Bristol & Bath, run by Portuguese bakers sharing great
+                     food. Luxury Hot Chocolates. Portuguese Coffees</p>
+
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-cake-candles"></i>
+                <h2>Cup Cake Design</h2>
+                <p>Eat in and take away. Delicious hot food, Pastel de 
+                    Natas, pastries, ice cream & cocktails. Based in Cardiff, 
+                    Bristol & Bath, run by Portuguese bakers sharing great
+                     food. Luxury Hot Chocolates. Portuguese Coffees</p>
+
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------portfolio------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src=".\images\wedcake2.jpg" width=450px height=360px>
+                <div class="layer">
+                    <h3>Wedding Cakes</h3>
+                    <p>The app connects with many cake designs.
+                        Download it from play store</p>
+                    <a href="#"><i class="fas fa-up-right-from-square"></i></a>
+        
+                </div>
+            </div>
+
+            <div class="work">
+                <img src=".\images\bcake.jpg" width=450px height=360px>
+                <div class="layer">
+                    <h3>Birthday Cakes</h3>
+                    <p>The app connects with many cake designs.
+                        Download it from play store</p>
+                    <a href="#"><i class="fas fa-up-right-from-square"></i></a>
+        
+                </div>
+            </div>
+
+            <div class="work">
+                <img src=".\images\ccake.jpg" width=450px height=360px>
+                <div class="layer">
+                    <h3>Cup Cakes</h3>
+                    <p>The app connects with many cake designs.
+                        Download it from play store</p>
+                    <a href="#"><i class="fas fa-up-right-from-square"></i></a>
+        
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------gallery--------->
+<section id="gallery">
+    <div class="container">
+        <h1 class="sub-titles">Gallery</h1>
+        <div class="gallery-bottom">
+            <div class="gallery-item">
+                <div class="photo"><img src=".\images\img1.jpg" alt="img" width=400px height=360px ></div>
+            </div>
+            <div class="gallery-item">
+                <div class="photo"><img src=".\images\img2.jpg" alt="img" width=400px height=360px></div>
+            </div>
+            <div class="gallery-item">
+                <div class="photo"><img src=".\images\img3.jpg" alt="img" width=400px height=360px></div>
+            </div>
+            <div class="gallery-item">
+                <div class="photo"><img src=".\images\img4.jpg" alt="img" width=400px height=360px></div>
+            </div>
+            <div class="gallery-item">
+                <div class="photo"><img src=".\images\img5.jpg" alt="img" width=400px height=360px></div>
+            </div>
+            <div class="gallery-item">
+                <div class="photo"><img src=".\images\img6.jpg" alt="img" width=400px height=360px></div>
+            </div>
+            <div class="gallery-item">
+                <div class="photo"><img src=".\images\img7.jpg" alt="img" width=400px height=360px></div>
+            </div>
+        </div>     
+    </div>
+</section>
+<!-- -------contact------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-titles">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> hdhtfernando@yahoo.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 0913332944</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/feed/?trk=404_page"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/hdsachini/Fernando033"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="resume.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <!-- <?php
+                    $Msg = "";
+                    if(isset($_GET['error'])){
+                        $Msg = "Please fill in the blanks";
+                        echo '<div class="alert alert-danger">'.$Msg.'</div>';
+                    }
+            if(isset($_GET['success'])){
+                $Msg = "Your message has been sent";
+                echo '<div class="alert alert-success">'.$Msg.'</div>';
+            }
+            ?> -->
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" action="connect.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your E-mail" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Message sent successfully</span>    
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Fernando.Made with <i class="fa-solid fa-heart"></i> by Fernando Bakery</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<!-----------------for small screen--------------->
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<!---------submition of contact----------->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzdi_GxxHev9uEkv-zMe4CPqEnfMqpWGGylV3fLhOwzLJ_Yj-shnDOkBZBpKKF0GcEF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+   
+</body>
+</html>
